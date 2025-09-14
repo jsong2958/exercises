@@ -5,16 +5,17 @@ from BinMessage import generateByteString
 
 # Task 1 - Easy
 def returnStuff(num, boolean):
-    if num > 5 and boolean == True:
-        return 2
-    if num <= 5 and (boolean == True or boolean == False):
-        return 1
-    if num > 5 and boolean == False:
-        return 3
+    if num > 5:
+        return 2 if boolean else 3
+    
+    return 1
+    
+
+    
 
 # Task 2 - Easy
 def celsiusToFahr(cel):
-    return (cel * (9/5)) + 32
+    return int((cel * (1.8)) + 32)
 
 # Task 3 - Easy
 def getSkibonacci(n):
