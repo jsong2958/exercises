@@ -14,8 +14,7 @@ def returnStuff(num, boolean):
 
 # Task 2 - Easy
 def celsiusToFahr(cel):
-    #Your code goes here
-    pass
+    return (cel * (9/5)) + 32
 
 # Task 3 - Easy
 def getSkibonacci(n):
